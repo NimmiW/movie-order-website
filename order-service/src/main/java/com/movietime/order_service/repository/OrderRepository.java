@@ -12,11 +12,11 @@ public class OrderRepository {
     List<Order> orderList = new ArrayList<>();
 
     private List<Order> populateRatingsList (){
-        Order o1 = new Order(Long.valueOf(1),Long.valueOf(1), "Amazing");
-        Order o2 = new Order(Long.valueOf(2),Long.valueOf(2), "Very bad");
-        Order o3 = new Order(Long.valueOf(3),Long.valueOf(1), "Wow, I liked it");
-        Order o4 = new Order(Long.valueOf(4),Long.valueOf(2), "Well....;)");
-        Order o5 = new Order(Long.valueOf(5),Long.valueOf(1), "Boring one! dont watch it");
+        Order o1 = new Order(Long.valueOf(1),Long.valueOf(1), "Alex White");
+        Order o2 = new Order(Long.valueOf(2),Long.valueOf(2), "Adrian Kola-Olawuyi");
+        Order o3 = new Order(Long.valueOf(3),Long.valueOf(1), "Wilfred de Silva");
+        Order o4 = new Order(Long.valueOf(4),Long.valueOf(2), "Cookie Dunken");
+        Order o5 = new Order(Long.valueOf(5),Long.valueOf(1), "Sumanasena Sakunthala");
         orderList.add(o1);
         orderList.add(o2);
         orderList.add(o3);
