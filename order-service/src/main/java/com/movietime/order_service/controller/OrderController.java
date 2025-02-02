@@ -18,8 +18,8 @@ public class OrderController {
     }
 
     @PostMapping
-    public Order add(@RequestBody Order rating) {
-        return orderRepository.add(rating);
+    public Order add(@RequestBody Order order) {
+        return orderRepository.add(order);
     }
 
     @GetMapping("/{id}")
